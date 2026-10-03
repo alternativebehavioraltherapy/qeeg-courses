@@ -1,0 +1,11 @@
+# Netlify: leave the UI base directory blank (repository root).
+# Build command: npm run build:netlify
+# Publish directory: dist/client
+# Do not set a custom domain here. First deploy is the *.netlify.app demo.
+
+[build]
+  command = "npm run build:netlify"
+  publish = "dist/client"
+
+[build.environment]
+  NODE_VERSION = "22"

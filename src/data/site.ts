@@ -76,7 +76,7 @@ export const site = {
    * from a course in src/data/courses.ts.
    */
   sales: {
-    starterBundle: "https://qeeg.systeme.io/earlymemberupgrade",
+    starterBundle: "https://qeeg.systeme.io/starterdiscount",
     beelabLanding: "https://qeeg.systeme.io/beelaborder",
     /**
      * systeme.io member-area login — returning students use this

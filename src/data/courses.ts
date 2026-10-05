@@ -74,7 +74,7 @@ export const courses: Course[] = [
       "The Foundation series is the starting path for clinicians who want to become excellent at qEEG and neurofeedback phenotypes. Eleven phenotype modules are planned. You learn the theory, how to identify each pattern in the raw record, the relevant research, treatment considerations, and you watch real data being read. Early members receive exclusive content, early access to future modules, peer consultation space, and discounted mentoring options. Introductory pricing of $50 per processed hour holds until those eleven modules are finished; the planned rate after that is about $100 per hour. Access is unlimited.",
     duration: "About 10 hours",
     priceNote: "$350 limited-time early bundle (50% off)",
-    salesLink: "https://qeeg.systeme.io/earlymemberupgrade",
+    salesLink: "https://qeeg.systeme.io/starterdiscount",
     category: "Foundations",
     imageSrc: "/images/clinic-5Q8A0094.jpg",
     imageAlt:

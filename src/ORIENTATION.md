@@ -7,7 +7,7 @@ This is the custom marketing site for **qeegcourses.com**.
 - This codebase is Home, Courses, Course Clips, About, Contact only.
 - **Do not** add checkout, carts, or order forms.
 - **Do not** add newsletter or “message us” input boxes — they are not connected to systeme.io.
-- Every enroll CTA uses a full `salesLink` from `src/data/courses.ts` that points at a systeme.io page (example: `https://qeeg.systeme.io/earlymemberupgrade`).
+- Every enroll CTA uses a full `salesLink` from `src/data/courses.ts` that points at a systeme.io page (example: `https://qeeg.systeme.io/starterdiscount`).
 - **Take me to my courses** opens `site.sales.memberLoginUrl` (`https://systeme.io/en/login`).
 - Course support email is `joshua.moore@altbehtherapy.com` (`src/data/site.ts`).
 - Authorized BeeMedic Training Partner badge: `public/images/beemedic-authorized-partner.png`. Copy must not say the manufacturer sets the training standard.

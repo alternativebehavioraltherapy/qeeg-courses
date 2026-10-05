@@ -9,11 +9,10 @@
  *   All purchases happen on existing systeme.io sales pages.
  *   Never add a checkout, cart, or payment form here.
  *
- *   After publish, the owner will point the GoDaddy domain (www) at this
- *   host. Sales URLs such as /starterdiscount should remain reachable on
- *   systeme.io (same path, a subdomain, or an explicit absolute URL).
- *   Keep salesLink values as full https://www.qeegcourses.com/... URLs
- *   so they survive the DNS cutover.
+ *   After publish, the owner points the GoDaddy domain (www) at this
+ *   host. Sales and login stay on systeme.io hostnames, not on www paths.
+ *   Keep salesLink values as full https://qeeg.systeme.io/... URLs
+ *   (member login is https://systeme.io/en/login).
  *
  * FORMS:
  *   This site does not collect emails. Course support is a mailto to
@@ -77,13 +76,13 @@ export const site = {
    * from a course in src/data/courses.ts.
    */
   sales: {
-    starterBundle: "https://www.qeegcourses.com/starterdiscount",
-    beelabLanding: "https://www.qeegcourses.com/beelablanding",
+    starterBundle: "https://qeeg.systeme.io/earlymemberupgrade",
+    beelabLanding: "https://qeeg.systeme.io/beelaborder",
     /**
      * systeme.io member-area login — returning students use this
      * to open courses they already purchased.
      */
-    memberLoginUrl: "https://www.qeegcourses.com/login",
+    memberLoginUrl: "https://systeme.io/en/login",
   },
 
   partners: {

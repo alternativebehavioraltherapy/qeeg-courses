@@ -74,7 +74,7 @@ export const courses: Course[] = [
       "The Foundation series is the starting path for clinicians who want to become excellent at qEEG and neurofeedback phenotypes. Eleven phenotype modules are planned. You learn the theory, how to identify each pattern in the raw record, the relevant research, treatment considerations, and you watch real data being read. Early members receive exclusive content, early access to future modules, peer consultation space, and discounted mentoring options. Introductory pricing of $50 per processed hour holds until those eleven modules are finished; the planned rate after that is about $100 per hour. Access is unlimited.",
     duration: "About 10 hours",
     priceNote: "$350 limited-time early bundle (50% off)",
-    salesLink: "https://www.qeegcourses.com/starterdiscount",
+    salesLink: "https://qeeg.systeme.io/earlymemberupgrade",
     category: "Foundations",
     imageSrc: "/images/clinic-5Q8A0094.jpg",
     imageAlt:
@@ -119,7 +119,7 @@ export const courses: Course[] = [
       "Software only helps if it is used with judgment. This course introduces BeeLab in the context of a working clinic: how to move through the tool without losing the clinical thread, how to keep documentation clean, and how to turn software output back into decisions a person can actually sit with.",
     duration: "3 hours",
     priceNote: "$50 / processed hour (intro rate)",
-    salesLink: "https://www.qeegcourses.com/beelablanding",
+    salesLink: "https://qeeg.systeme.io/beelaborder",
     category: "Software",
     imageSrc: "/images/clinic-5Q8A0257-beelab.jpg",
     imageAlt:

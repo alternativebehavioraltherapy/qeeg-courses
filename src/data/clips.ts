@@ -29,7 +29,7 @@ export const clips: CourseClip[] = [
     title: "Phenotypes Orientation Promo",
     summary:
       "A short introduction to the orientation module for the phenotypes series — why individual patterns matter more than a DSM label.",
-    relatedHref: "https://www.qeegcourses.com/starterdiscount",
+    relatedHref: "https://qeeg.systeme.io/earlymemberupgrade",
     relatedLabel: "Early bundle",
   },
   {
@@ -38,7 +38,7 @@ export const clips: CourseClip[] = [
     title: "Neurofeedback Phenotypes: Foundations Series",
     summary:
       "Promo for the initial Foundations block: raw-data reading, phenotype categories, and the longer series still being built.",
-    relatedHref: "https://www.qeegcourses.com/starterdiscount",
+    relatedHref: "https://qeeg.systeme.io/earlymemberupgrade",
     relatedLabel: "Early bundle",
   },
   {
@@ -47,7 +47,7 @@ export const clips: CourseClip[] = [
     title: "BeeLab Intro Advertisement",
     summary:
       "Skills-level introduction to BeeLab software and clinic practice — hardware, clean technique, and training that holds a high clinical standard.",
-    relatedHref: "https://www.qeegcourses.com/beelablanding",
+    relatedHref: "https://qeeg.systeme.io/beelaborder",
     relatedLabel: "BeeLab course",
   },
 ];

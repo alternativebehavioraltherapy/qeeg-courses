@@ -77,7 +77,7 @@ export const site = {
    */
   sales: {
     starterBundle: "https://qeeg.systeme.io/starterdiscount",
-    beelabLanding: "https://qeeg.systeme.io/beelaborder",
+    beelabLanding: "https://qeeg.systeme.io/beelablanding",
     /**
      * systeme.io member-area login — returning students use this
      * to open courses they already purchased.

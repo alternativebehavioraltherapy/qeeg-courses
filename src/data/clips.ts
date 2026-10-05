@@ -47,7 +47,7 @@ export const clips: CourseClip[] = [
     title: "BeeLab Intro Advertisement",
     summary:
       "Skills-level introduction to BeeLab software and clinic practice — hardware, clean technique, and training that holds a high clinical standard.",
-    relatedHref: "https://qeeg.systeme.io/beelaborder",
+    relatedHref: "https://qeeg.systeme.io/beelablanding",
     relatedLabel: "BeeLab course",
   },
 ];

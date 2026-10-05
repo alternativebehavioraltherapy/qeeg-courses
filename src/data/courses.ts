@@ -119,7 +119,7 @@ export const courses: Course[] = [
       "Software only helps if it is used with judgment. This course introduces BeeLab in the context of a working clinic: how to move through the tool without losing the clinical thread, how to keep documentation clean, and how to turn software output back into decisions a person can actually sit with.",
     duration: "3 hours",
     priceNote: "$50 / processed hour (intro rate)",
-    salesLink: "https://qeeg.systeme.io/beelaborder",
+    salesLink: "https://qeeg.systeme.io/beelablanding",
     category: "Software",
     imageSrc: "/images/clinic-5Q8A0257-beelab.jpg",
     imageAlt:

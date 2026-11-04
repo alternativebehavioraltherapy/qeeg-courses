@@ -4,7 +4,7 @@ This is the custom marketing site for **qeegcourses.com**.
 
 ## Hybrid with systeme.io
 
-- This codebase is Home, Courses, Course Clips, About, Contact only.
+- This codebase is Home, Courses, Course Clips, About, Resources, Contact only.
 - **Do not** add checkout, carts, or order forms.
 - **Do not** add newsletter or “message us” input boxes — they are not connected to systeme.io.
 - Every enroll CTA uses a full `salesLink` from `src/data/courses.ts` that points at a systeme.io page (example: `https://qeeg.systeme.io/starterdiscount`).
@@ -34,6 +34,7 @@ Append an object to `src/data/gallery.ts`. It appears on Home (hero) and About.
 | FAQ copy | `src/data/faqs.ts` |
 | Colors, fonts | `src/styles.css` (`@theme`) |
 | Nav items | `src/components/layout/SiteHeader.tsx` |
+| Resources, downloads, organization links | `src/data/resources.ts` and `/public/downloads/` |
 | Carousel photos | `src/data/gallery.ts` |
 | Course clips | `src/data/clips.ts` |
 

@@ -49,6 +49,11 @@ export function SiteFooter() {
                 </Link>
               </li>
               <li>
+                <Link to="/resources" className="text-accent-fg/85 no-underline hover:text-accent-fg">
+                  Resources
+                </Link>
+              </li>
+              <li>
                 <Link to="/contact" className="text-accent-fg/85 no-underline hover:text-accent-fg">
                   Contact & FAQ
                 </Link>

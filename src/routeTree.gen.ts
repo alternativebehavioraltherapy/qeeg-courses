@@ -15,6 +15,7 @@ import { Route as ClipsRouteImport } from './routes/clips'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as CoursesRouteImport } from './routes/courses'
 import { Route as LoginRouteImport } from './routes/login'
+import { Route as ResourcesRouteImport } from './routes/resources'
 import { Route as ApiAuthSplatRouteImport } from './routes/api/auth/$'
 
 const IndexRoute = IndexRouteImport.update({
@@ -47,6 +48,11 @@ const LoginRoute = LoginRouteImport.update({
   path: '/login',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ResourcesRoute = ResourcesRouteImport.update({
+  id: '/resources',
+  path: '/resources',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiAuthSplatRoute = ApiAuthSplatRouteImport.update({
   id: '/api/auth/$',
   path: '/api/auth/$',
@@ -60,6 +66,7 @@ export interface FileRoutesByFullPath {
   '/contact': typeof ContactRoute
   '/courses': typeof CoursesRoute
   '/login': typeof LoginRoute
+  '/resources': typeof ResourcesRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
 export interface FileRoutesByTo {
@@ -69,6 +76,7 @@ export interface FileRoutesByTo {
   '/contact': typeof ContactRoute
   '/courses': typeof CoursesRoute
   '/login': typeof LoginRoute
+  '/resources': typeof ResourcesRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
 export interface FileRoutesById {
@@ -79,6 +87,7 @@ export interface FileRoutesById {
   '/contact': typeof ContactRoute
   '/courses': typeof CoursesRoute
   '/login': typeof LoginRoute
+  '/resources': typeof ResourcesRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
 export interface FileRouteTypes {
@@ -90,6 +99,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/courses'
     | '/login'
+    | '/resources'
     | '/api/auth/$'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -99,6 +109,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/courses'
     | '/login'
+    | '/resources'
     | '/api/auth/$'
   id:
     | '__root__'
@@ -108,6 +119,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/courses'
     | '/login'
+    | '/resources'
     | '/api/auth/$'
   fileRoutesById: FileRoutesById
 }
@@ -118,6 +130,7 @@ export interface RootRouteChildren {
   ContactRoute: typeof ContactRoute
   CoursesRoute: typeof CoursesRoute
   LoginRoute: typeof LoginRoute
+  ResourcesRoute: typeof ResourcesRoute
   ApiAuthSplatRoute: typeof ApiAuthSplatRoute
 }
 
@@ -165,6 +178,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LoginRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/resources': {
+      id: '/resources'
+      path: '/resources'
+      fullPath: '/resources'
+      preLoaderRoute: typeof ResourcesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/auth/$': {
       id: '/api/auth/$'
       path: '/api/auth/$'
@@ -182,6 +202,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContactRoute: ContactRoute,
   CoursesRoute: CoursesRoute,
   LoginRoute: LoginRoute,
+  ResourcesRoute: ResourcesRoute,
   ApiAuthSplatRoute: ApiAuthSplatRoute,
 }
 export const routeTree = rootRouteImport

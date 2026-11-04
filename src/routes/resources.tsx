@@ -37,23 +37,23 @@ function ResourcesPage() {
           Standards, tools, and professional bodies
         </h1>
 
-        <section className="mt-12 overflow-hidden rounded-xl bg-ink text-accent-fg shadow-card">
+        <section className="mt-12 overflow-hidden rounded-xl bg-surface shadow-card">
           <div className="grid items-center gap-8 p-6 sm:p-10 lg:grid-cols-12">
             <div className="flex justify-center lg:col-span-5">
               <img
                 src={standardsOfCare.logoSrc}
                 alt={standardsOfCare.logoAlt}
-                className="w-full max-w-sm bg-ink object-contain outline-none"
+                className="w-full max-w-sm rounded-lg bg-white object-contain p-4 outline-none"
               />
             </div>
             <div className="lg:col-span-7">
-              <p className="text-xs font-medium uppercase tracking-[0.18em] text-accent-fg/60">
+              <p className="text-xs font-medium uppercase tracking-[0.18em] text-accent">
                 Endorsed by this teaching program
               </p>
-              <h2 className="mt-3 font-display text-3xl text-accent-fg sm:text-4xl">
+              <h2 className="mt-3 font-display text-3xl sm:text-4xl">
                 {standardsOfCare.name}
               </h2>
-              <p className="mt-4 text-[1.05rem] leading-relaxed text-accent-fg/80">
+              <p className="mt-4 text-[1.05rem] leading-relaxed text-ink-soft">
                 qEEG Courses endorses the standards of care published by the{" "}
                 {standardsOfCare.organization}. Read them before you change a
                 protocol, write a report, or describe what the record can and

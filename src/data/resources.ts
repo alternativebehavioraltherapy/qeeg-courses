@@ -2,18 +2,26 @@
  * RESOURCES — public downloads and professional organizations.
  *
  * TO ADD A DOWNLOAD: append an object to `downloads`.
- * Put the file in /public/downloads/ and set `href` to that public path.
+ * Put a local file in /public/downloads/ and set `href` to that public path,
+ * or set `href` to an external URL and `external: true`.
  *
  * TO ADD AN ORGANIZATION: append an object to `organizations`.
  */
 
 export const standardsOfCare = {
   name: "Standards of Care in Neurofeedback",
-  organization: "Neurofeedback Society",
+  organization: "Neurofeedback SOC",
   url: "https://neurofeedbacksoc.com",
   logoSrc: "/images/neurofeedback-soc.png",
   logoAlt:
     "SoC mark — Standards of Care in Neurofeedback, Neurofeedback Society.",
+} as const;
+
+export const wineeg = {
+  name: "WinEEG",
+  version: "3.17.31",
+  href: "https://bio-medical.com/download/WinEEG_3_17_31.zip",
+  filename: "WinEEG_3_17_31.zip",
 } as const;
 
 export const downloads = [
@@ -23,7 +31,7 @@ export const downloads = [
     filename: "Double Banana Montage.mtg",
     href: "/downloads/double-banana-montage.mtg",
     summary:
-      "A sensor montage for viewing EEG in the double-banana montage. Load it in WinEEG so it appears as a montage option.",
+      "A sensor montage for viewing EEG in the double-banana montage. Load it in WinEEG and it appears as a montage option.",
   },
 ] as const;
 
